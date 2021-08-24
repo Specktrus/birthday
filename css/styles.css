@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: white;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    background-image: url("../img/doido.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 1px #888;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-top: -2rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown-b {
+    width: 100px;
+    margin: 2rem 3rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.countdown-b span {
+    text-align: center;
+    justify-content: center;
+    font-weight: lighter;
+}
+
+.big-text {
+    font-size: 5rem;
+    line-height: 1;
+    font-weight: 450;
+    margin: 0;
+}
+
+@media only screen and (max-device-width: 500px) {
+
+    .countdown-b {
+        font-size: 3rem;
+        width: 25vw;
+    }
+
+    .big-text {
+        font-size: 6rem;
+
+    }
+
+
+}
